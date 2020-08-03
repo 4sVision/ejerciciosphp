@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicios - PHP</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="./CSS/estilo.css">
+    <link rel="icon" type="image/png" href="./img/star.png" />
+</head>
+
+<script language="Javascript">
+		var txt = "Ejercicios - PHP - ";
+		var espera = 300;
+		var resresca = null;
+
+		function titulo(){
+			document.title = txt;
+
+			txt = txt.substring(1,txt.length)+txt.charAt(0);
+
+			refresca = setTimeout("titulo()",espera);
+		}
+
+		titulo();
+	</script>
+
+<body>
+	<nav id="menu">
+		<div><a href="./Factorial/VistaF.php">Factorial de un número</a></div>
+		<div><a href="./Conversor/VistaConversor.php">Conversor de Temperaturas</a></div>
+		<div><a href="./Calculadora/VistaCalculadora.php">Calculadora Básica</a></div>
+		<div id="icon"><a href="index.html"><img src="./img/star.png"></a></div>
+	</nav>
+	<section id="dentro">
+		<h1>Barco Ibarra Rosa María</h1>
+		<p>EVN 304 - Universidad Tecnologica de León</p>
+		<h3>Ejercicios PHP: Repaso</h3>
+		<p>
+			1. Calculadora básica.
+			<br>2. Conversión de temperaturas.
+			<br>3. Sacar factorial de un número.
+		</p>
+	</section>
+</body>
+</html>

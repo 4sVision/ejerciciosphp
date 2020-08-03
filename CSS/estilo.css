@@ -1,0 +1,102 @@
+    body{
+        text-align: center;
+        background-color: #f1c5c5;
+        color: #511845;
+        padding: 4%;
+    }
+
+    #dentro{
+        width: 100%;
+        background-color: #fff;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-size: 1.5rem;
+    }
+    #num{
+        width: 250px;
+        height: 1.5rem;
+        text-align: center;
+    }
+
+    .llena{
+        width: 400px;
+        height: 3rem;
+        text-align: center;
+        font-size: 1.5rem;
+        border-radius: 25px;
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 2px solid #ea728c;
+    }
+
+    #menu{
+        width: 100%;
+        background-color: #59405c;
+        margin-bottom: 5px;
+    }
+
+    #menu div{
+        width: 28%;
+        background-color: #59405c;
+        display: inline-block;
+        height: 100%;
+        font-size: 1.5rem;
+        padding: 10px;
+        vertical-align: top;
+    }  
+
+    img{
+        width:40%;
+        height: auto;
+    }
+
+    #menu #icon{
+        display: inline-block;
+        padding: 1px;
+        width: 8%;
+    }      
+
+    #menu div a {
+        display:block;
+        color: #fff;
+        text-decoration:none;
+    }
+
+    #menu div:hover {
+        background: #ea728c;
+    }
+
+    #menu div a:hover{
+        color: rgb(002,000,002);
+    }
+
+    .boton{
+        background-color: #ffd5cd;
+        padding: 10px;
+        border: 2px solid #ffd5cd;
+        border-radius: 25px;
+        font-size: 1.2rem;
+        width: auto;
+        height: auto;
+    }
+
+    .bot{
+        width: 55px;
+        height: 55px;
+        font-size: 3rem;
+        text-align: center;
+        background-color: #ffd5cd;
+        border: 2px solid #ffd5cd;
+        border-radius: 25px;
+    }
+
+    .boton:hover{
+        background-color: #ea728c;
+        border: 2px solid #ea728c;
+    }
+
+    .bot:hover{
+        background-color: #ea728c;
+        border: 2px solid #ea728c;
+    }
